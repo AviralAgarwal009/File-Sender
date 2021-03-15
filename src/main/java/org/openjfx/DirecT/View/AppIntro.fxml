@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.DirecT.Controller.AppIntro">
+   <bottom>
+      <StackPane prefHeight="50.0" styleClass="topbottompane" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="nxt" buttonType="RAISED" onAction="#nextAction" prefWidth="100.0" text="Next">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </StackPane>
+   </bottom>
+   <center>
+      <VBox styleClass="slide1" BorderPane.alignment="CENTER">
+         <children>
+            <StackPane>
+               <children>
+                  <TextField fx:id="username">
+                     <StackPane.margin>
+                        <Insets left="300.0" right="300.0" top="10.0" />
+                     </StackPane.margin>
+                  </TextField>
+                  <Label text="𝙋𝙡𝙚𝙖𝙨𝙚 𝙏𝙮𝙥𝙚 𝙄𝙣 𝙔𝙤𝙪𝙧 𝙉𝙖𝙢𝙚 𝘼𝙨 𝙔𝙤𝙪 𝘼𝙧𝙚 𝘼 𝙁𝙞𝙧𝙨𝙩 𝙏𝙞𝙢𝙚 𝙐𝙨𝙚𝙧" textFill="WHITE">
+                     <StackPane.margin>
+                        <Insets bottom="50.0" />
+                     </StackPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="300.0" />
+               </VBox.margin>
+            </StackPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
