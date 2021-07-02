@@ -4,6 +4,8 @@ The whole process is automatic and user has to only select the files that they w
 
 Given below are some screenshots that shows the working of the software.
 
+To Download the software visit : https://drive.google.com/file/d/1YT48-ZFfScQP2C5AcpwMft7Ips3YyDQX/view?usp=sharing
+
 ![4](https://user-images.githubusercontent.com/44403543/111138507-0632f400-85a6-11eb-9aad-18d345ed9c6a.png)
 
 ![1](https://user-images.githubusercontent.com/44403543/111138510-06cb8a80-85a6-11eb-9f7f-365eab21819f.png)
